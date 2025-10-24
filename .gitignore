@@ -1,0 +1,15 @@
+# Ignore dataset
+data/
+*.zip
+*.tar
+*.rar
+
+# Ignore model checkpoints
+*.h5
+*.ckpt
+
+# Ignore system files
+__pycache__/
+.DS_Store
+.ipynb_checkpoints/
+
