@@ -13,3 +13,6 @@ __pycache__/
 .DS_Store
 .ipynb_checkpoints/
 
+# Other Python-related ignores
+*.py[cod]
+*$py.class
