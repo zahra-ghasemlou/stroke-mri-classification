@@ -46,8 +46,6 @@ model.summary()
 
 history = model.fit(train_generator, epochs=10, validation_data=val_generator)
 
-# بخش ذخیره مدل حذف شد
-
 loss, acc = model.evaluate(val_generator)
 print(f"Test accuracy: {acc*100:.2f}%")
 
